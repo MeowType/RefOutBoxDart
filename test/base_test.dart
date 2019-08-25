@@ -27,4 +27,12 @@ void main() {
 
     expect(ref.val, equals(3));
   });
+
+  test('tryUseVal', () {
+    final ref = Ref(1);
+
+    tryUseVal(ref, (val) {
+      expect(val, 1);
+    });
+  });
 }
