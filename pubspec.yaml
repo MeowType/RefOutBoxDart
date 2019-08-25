@@ -1,0 +1,15 @@
+name: ref_out_box
+version: '1.0.0'
+description: "Wrapping values so that they can be passed by reference, like c#'s ref out"
+authors:
+- 'MeowType <aditrc@outlook.com>'
+- '2A5F <U2A5F@outlook.com>'
+homepage: 'https://github.com/MeowType/RefBoxDart'
+repository: 'https://github.com/MeowType/RefBoxDart'
+issue_tracker: 'https://github.com/MeowType/RefBoxDart/issues'
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+dependencies:
+  some: ^1.2.2
+dev_dependencies:
+  test: ^1.6.8
