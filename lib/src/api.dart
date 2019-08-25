@@ -14,14 +14,14 @@ bool trySetVal<T>(Out<T> out, T val) {
 /// Try change the wrapper box value
 /// Can avoid null problems
 /// Return whether the setting is successful
-bool tryChangeVal<T>(Out<T> out, T fn(T)) {
+bool tryChangeVal<T>(Out<T> out, T fn(T val)) {
   if (out == null || fn == null) return false;
   out.val = fn(out.val);
   return true;
 }
 
 /// Try use the wrapper box value
-Maybe<R> tryUseVal<T, R>(Box<T> box, R fn(T)) {
+Maybe<R> tryUseVal<T, R>(Box<T> box, R fn(T val)) {
   if (box == null || fn == null) return None<R>();
   return Some<R>(fn(box.val));
 }
