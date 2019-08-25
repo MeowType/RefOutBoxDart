@@ -11,6 +11,15 @@ bool trySetVal<T>(Out<T> out, T val) {
   return true;
 }
 
+/// Try setting the wrapper box value
+/// Can avoid null problems
+/// Return whether the setting is successful
+bool trySetValFn<T>(Out<T> out, T fn()) {
+  if (out == null || fn == null) return false;
+  out.val = fn();
+  return true;
+}
+
 /// Try change the wrapper box value
 /// Can avoid null problems
 /// Return whether the setting is successful

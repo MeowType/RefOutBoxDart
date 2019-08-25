@@ -16,13 +16,13 @@ final out = Out<bool>();
 
 tryDoSome(out);
 
-out.val // true
+out.val; // true
 ```
 
 ---
 ```dart
 void addRef(Ref<int> ref) {
-  tryChangeVal(ref, (val) => val++);
+  tryChangeVal(ref, (val) => val + 1);
 }
 ```
 ```dart
@@ -31,5 +31,5 @@ final ref = Ref(1);
 addRef(ref);
 addRef(ref);
 
-ref.val // 3
+ref.val; // 3
 ```

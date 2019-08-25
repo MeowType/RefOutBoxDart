@@ -1,3 +1,9 @@
+# 1.1.0
+add trySetValFn
+add test
+add index
+fix example
+
 # 1.0.1
 Fix lib/src/api.dart. (-1 points)
 

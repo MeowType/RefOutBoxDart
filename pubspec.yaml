@@ -1,5 +1,5 @@
 name: ref_out_box
-version: '1.0.1'
+version: '1.1.0'
 description: "Wrapping values so that they can be passed by reference, like c#'s ref out"
 authors:
 - 'MeowType <aditrc@outlook.com>'
