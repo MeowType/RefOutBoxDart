@@ -4,9 +4,9 @@ description: "Wrapping values so that they can be passed by reference, like c#'s
 authors:
 - 'MeowType <aditrc@outlook.com>'
 - '2A5F <U2A5F@outlook.com>'
-homepage: 'https://github.com/MeowType/RefBoxDart'
-repository: 'https://github.com/MeowType/RefBoxDart'
-issue_tracker: 'https://github.com/MeowType/RefBoxDart/issues'
+homepage: 'https://github.com/MeowType/RefOutBoxDart'
+repository: 'https://github.com/MeowType/RefOutBoxDart'
+issue_tracker: 'https://github.com/MeowType/RefOutBoxDart/issues'
 environment:
   sdk: '>=2.0.0 <3.0.0'
 dependencies:
